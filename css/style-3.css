@@ -95,6 +95,7 @@ h2 {
     font-weight: 500;
     font-style: normal;
     text-align: left;
+   
 }
 
 blockquote {
@@ -128,7 +129,7 @@ blockquote {
     margin: 0;
     width: 100%;
     background-color: #3E4B82;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
     font-size: 0.8;
     color:#F5f5f5;
 }
@@ -150,7 +151,7 @@ blockquote {
     margin: 0;
     width: 100%;
     background-color: #000000;
-    padding: 2.5rem 0;
+    padding: 3rem 0;
     font-size: 0.8;
     
 }
@@ -162,7 +163,7 @@ blockquote {
     margin: 0;
     width: 100%;
     background-color: #ED1D23;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
     font-size: 0.8;
     
 
