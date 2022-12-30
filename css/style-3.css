@@ -16,7 +16,10 @@ nav {
     width: 100%;
     background-color: #14A74D;
     padding: 1.5rem 0;
-    font-size: 0.8;
+    font-size: 1rem;
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 nav ul {
@@ -51,10 +54,11 @@ nav a:hover {
 body {
     background: #f5f5f5;
     color: #000000;
-    font-family: futura-pt-bold, sans-serif;
-    font-weight: 700;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
     font-style: normal;
     text-align: justify;
+    font-size: 19px;
     
         
     }
@@ -111,6 +115,7 @@ blockquote {
     font-family: futura-pt, sans-serif;
     font-style: italic;
     font-weight: 700;
+    color:#F5f5f5;
     
 }
 
@@ -122,28 +127,25 @@ blockquote {
 
 }
 
+.icon {
+    color:#14A74D;
+    font-family: bodoni-urw, serif;
+    font-weight: 700;
+    font-style: normal;
+}
 
 .navy {
     top: 0;
     left: 0;
     margin: 0;
     width: 100%;
-    background-color: #3E4B82;
+    background-color: #2D266A;
     padding: 1rem 0;
     font-size: 0.8;
     color:#F5f5f5;
 }
 
-.baby {
-    top: 0;
-    left: 0;
-    margin: 0;
-    width: 100%;
-    background-color: #9DA2BB;
-    padding: 1rem 0;
-    font-size: 1.25rem;
 
-}
 
 .block {
     top: 0;
@@ -162,7 +164,7 @@ blockquote {
     left: 0;
     margin: 0;
     width: 100%;
-    background-color: #ED1D23;
+    background-color: #E9394E;
     padding: 1rem 0;
     font-size: 0.8;
     
@@ -203,6 +205,9 @@ blockquote {
     margin-left: 40%;
     margin-right: 20%;
     max-width: 564px;
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .knoll {
@@ -228,6 +233,16 @@ blockquote {
     display: table;
   }
 
+.name {
+    color: #14A74D;
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.441rem;
+    margin-top: 1rem;
+
+}
+
   .yellow{
     top: 0;
     left: 0;
@@ -250,7 +265,12 @@ blockquote {
 
   .quote{
     color: #F5f5f5;
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
   }
+
+
   hr {
     height: 4px;
     background-color: #212C64;
@@ -293,6 +313,26 @@ blockquote {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
+
+.gridimage2 {
+    display: grid;
+    column-gap: px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.imghead {
+        margin-right: -530px;
+        margin-top: -503px;
+        height: 580px;
+        width: auto;
+}
+
+
+.block {
+    background-image: url(../img/head.jpg);
+    background-size: cover;
+
+}
 
 /*-- styling in footer --*/
 

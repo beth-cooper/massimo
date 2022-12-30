@@ -1,0 +1,26 @@
+*-- CSS Reset --*/
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1em;
+}
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "heading-text heading-text heading-text img img"
+      "map map body body body";
+  }
+  
+  .heading-text { grid-area: heading-text; }
+  
+  .img { grid-area: img; }
+  
+  .map { grid-area: map; }
+  
+  .body { grid-area: body; }
+  
